@@ -8,3 +8,4 @@ const startTime = process.hrtime();
 for(let i =0; i < 10; i++){}
 const endTime = process.hrtime(startTime);
 console.log("Time it took ",endTime[1]/1000000)
+
